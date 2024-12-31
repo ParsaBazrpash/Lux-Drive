@@ -24,12 +24,6 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div className="flex items-center space-x-8">
             <Link 
-              href="/" 
-              className="text-black hover:text-red-600 transition-colors duration-200"
-            >
-              Home
-            </Link>
-            <Link 
               href="/appointments" 
               className="flex items-center text-black hover:text-red-600 transition-colors duration-200"
             >
